@@ -1,0 +1,13 @@
+
+
+
+void main() {
+  
+  List fridge =["banana","apple", "beef" ] ;
+  String item="beef" ;
+  for (int i = 0; i <=fridge.length; i++) {
+   if(fridge[i]==item ) {
+     print("${fridge[i] } The potions =${i}  "  ) ;
+   } 
+  }
+}
